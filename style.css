@@ -12,6 +12,7 @@ body{
     margin-right: auto;
     margin-top: 60px;
     margin-bottom: 50px;
+    
 }
 
 .title{
@@ -50,21 +51,52 @@ body{
     margin-top: 40px;
 }
 
+.quote a{
+    text-decoration: underline;
+    color:#000 ;    
+}
+
 .corps{
     margin: auto;
     width: 70%;
-    padding: 40px;
     font-size: 20px;
     line-height: 35px;
 }
 
+.corps > div{
+    margin: 30px;
+    background-color: rgb(175, 228, 250);
+    border-radius: 5px;
+    border: 3px solid #fff;
+    padding: 40px;
+    padding-top: 20px;
+}
+
+.corps h3{
+    font-style: italic;
+}
+
+.corps p{
+    width: 80%;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.corps img{
+    border-radius: 15px;
+    float: right;
+    margin: 30px;
+}
+
 .footer{
     height: 300px;
+    margin-top: 50px;
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: rgb(54, 160, 240);
-    color: rgb(249, 230, 234);
+    color: rgb(187, 229, 247);
     width: 100%;
+    border-top: 3px solid #fff;
 }
 
 .footer ul{
@@ -74,8 +106,8 @@ body{
 
 .footer a{
     display: block;
-    margin-left: 200px;
-    color: rgb(249, 230, 234);
+    margin-left: 350px;
+    color: rgb(187, 229, 247);
     text-decoration: none;
     padding: 15px;
 }
@@ -92,4 +124,27 @@ body{
     margin-right: 500px;
     margin-top: 100px;
 
+}
+
+.phrase_gras{
+    font-weight: bold;
+}
+
+.phrase_italique{
+    font-style: italic;
+}
+
+.phrase_soulignee{
+    text-decoration: underline;
+}
+
+.fixed_image{
+    border: 3px solid #fff;
+    border-radius: 8px;
+    margin: 80px;
+    margin-top:-20px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    float: right;
 }
