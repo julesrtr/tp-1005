@@ -203,7 +203,7 @@ body{
 
 .gallerie :hover{
     box-shadow: none;
-}
+}   
 
 .description_gallerie{
     text-align: center;
@@ -213,24 +213,26 @@ body{
 
 .bulle_discu{
     position: absolute;
-    margin:50px;
-    margin-top: 75px;
-    animation: glisse 10s infinite, couleur;
+    top: 20px;
+    animation: glisse 6s ease-in-out infinite alternate, couleur 5s infinite;
 }
 
 @keyframes glisse{
     0%{
-        transform: translateY(0vw);
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(100vw);
     }
     100%{
-        transform: translateX(100vw);
+        transform: translateX(0);
     }
 }
 
 @keyframes couleur{
-    0% { fill: chocolate;}
-    50% { fill: chartreuse;}
-    100% { fill: #fed0de;}
+    0% { fill: #f4b0b0;}
+    50% { fill: #fc7d77;}
+    100% { fill: #f60000;}
 
 }
 
@@ -238,6 +240,7 @@ body{
     font-weight: bold;
     color: orange;
     padding: 25px;
+    text-align: center;
 }
 
 .email_lien{
@@ -267,4 +270,25 @@ body{
     background-repeat: no-repeat;
     display: inline-block;
     background-image: url(images/icons8-github-50.png);
+}
+
+.svg_boite{
+    height: 150px;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    margin: 30px auto;
+    border: 2 px solid white;
+    border-radius: 8px;
+    justify-content: start;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.image_contact{
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
 }
