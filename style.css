@@ -203,3 +203,19 @@ body{
 .gallerie-item :hover{
 
 }
+
+.bulle_discu{
+    position: absolute;
+    margin:50px;
+    margin-top: 75px;
+    animation: glisse 10s infinite;
+}
+
+@keyframes glisse{
+    0%{
+        transform: translateY(0vw);
+    }
+    100%{
+        transform: translateX(100vw);
+    }
+}
