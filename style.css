@@ -169,9 +169,8 @@ body{
     background-color: rgb(219, 237, 245);
     height: 220px;
     text-align: center;
-    box-shadow: 5px 5px 15px #353434;
     position: relative;
-    
+    box-shadow: 5px 5px 15px #353434;
 }
 
 .overlay{
@@ -188,18 +187,26 @@ body{
 .rond_image{
     border: #fff solid 3px ;
     border-radius: 5px;
+    box-shadow: 5px 5px 15px #353434;
 }
 
 .arrondi_image{
     border: #fff solid 3px ;
     border-radius: 20%;
+    box-shadow: 5px 5px 15px #353434;
 }
 
 .carre_image{
     border: #fff solid 3px ;
-
+    box-shadow: 5px 5px 15px #353434;
 }
 
-.gallerie-item :hover{
+.gallerie :hover{
+    box-shadow: none;
+}
 
+.description_gallerie{
+    text-align: center;
+    margin: 75px;
+    line-height: 30px;
 }
