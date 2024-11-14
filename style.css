@@ -12,6 +12,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
   }
 
+
 .front_page_image{
     display: block;
     margin-left: auto;
@@ -25,6 +26,14 @@ body{
     text-align: center;
     margin-top: 70px;
     margin-bottom: 70px;
+    color: #fff;
+}
+
+.title_index{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    color: #000000;
 }
 
 .navigateur ul{
@@ -205,10 +214,31 @@ body{
     box-shadow: none;
 }   
 
-.description_gallerie{
+.description{
     text-align: center;
     margin: 75px;
     line-height: 30px;
+}
+
+ul, ol{
+    padding: 20px;
+}
+
+li{
+    padding: 5px;
+}
+
+.premiere_liste :first-child::first-letter{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.competences_image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #fff solid 3px;
+    border-radius: 8px;
 }
 
 .bulle_discu{
@@ -292,3 +322,4 @@ body{
     margin-top: 10px;
     border-radius: 10px;
 }
+
